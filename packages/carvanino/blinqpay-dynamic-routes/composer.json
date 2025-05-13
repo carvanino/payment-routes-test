@@ -1,0 +1,25 @@
+{
+    "name": "carvanino/blinqpay-dynamic-routes",
+    "description": "A Laravel package for smart payment gateway routing",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Carvanino\\BlinqpayDynamicRoutes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Carvanino\\BlinqpayDynamicRoutes\\PaymentRouterServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Akinola",
+            "email": "akinolatofunmi04@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
